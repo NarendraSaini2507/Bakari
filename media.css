@@ -1,0 +1,54 @@
+@media (min-width:576px) {
+    #nav-menu{
+        width: 40%;
+    }
+    .hero-content p:nth-child(1){
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .hero-content p:nth-child(3){
+        font-size: 12px;
+    }
+    .hero-content h1{
+        font-size: 48px;
+    }
+    #hero-section{
+        height: 550px;
+    }
+    .review-area{
+        height: 400px;
+    }
+    
+}
+
+@media (min-width:992px) {
+    .hero-content p:nth-child(1){
+        text-transform: uppercase;
+        font-size: 14px;
+    }
+    .hero-content p:nth-child(3){
+        font-size: 14px;
+    }
+    .hero-content h1{
+        font-size: 72px;
+    }
+    #nav-menu{
+        padding-top: 0px;
+        display: flex;
+        gap: 20px;
+        justify-content: end;
+        position: static;
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        color: black;
+        flex-direction: row;
+    }
+    #hero-section{
+        height: 750px;
+    }
+    .review-area{
+        height: 500px;
+    }
+
+}
